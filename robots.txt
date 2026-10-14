@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cpusakura.github.io/onsen-map-tokyo/sitemap.xml

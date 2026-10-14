@@ -1,0 +1,45 @@
+
+:root{--bg:#0C1430;--surface:#141E44;--ink:#EEF1FB;--muted:#B8C1DC;--line:rgba(255,255,255,.14);--accent:#F2B65E;--accent-ink:#1B1304;--link:#9FD3E8;--font-serif:"Shippori Mincho B1","Yu Mincho","Hiragino Mincho ProN",serif;--font-sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 var(--font-sans)}
+a{color:var(--link)}
+.in{max-width:900px;margin:0 auto;padding:0 16px}
+.top{background:#080D22;border-bottom:1px solid var(--line)}
+.top .in{display:flex;justify-content:space-between;align-items:center;padding-top:10px;padding-bottom:10px}
+.brand{font:800 20px var(--font-serif);color:var(--accent);text-decoration:none}
+.tomap{background:var(--accent);color:var(--accent-ink);padding:7px 16px;border-radius:999px;text-decoration:none;font-weight:700;font-size:14px}
+.crumbs{background:rgba(8,13,34,.7);border-bottom:1px solid var(--line)}
+.crumbs ol{list-style:none;margin:0 auto;padding:8px 16px;max-width:900px;display:flex;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.crumbs li+li::before{content:"›";margin:0 8px;color:#6F7BA3}
+.crumbs a{color:var(--muted)}
+.crumbs [aria-current]{color:var(--accent)}
+main{padding-top:22px;padding-bottom:32px}
+h1{font:800 clamp(26px,5vw,36px)/1.35 var(--font-serif);margin:6px 0 4px}
+h2{font:700 21px var(--font-serif);margin:30px 0 10px;color:var(--accent)}
+.sub{color:var(--muted);margin:0 0 14px;font-size:14px}
+.lead{font-size:17px}
+.count{color:var(--muted)}
+.closed{display:inline-block;background:#3A2C12;color:#F6DDA6;border-radius:8px;padding:6px 12px;font-size:14px;margin:0 0 10px}
+dl.info{margin:20px 0;border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
+dl.info>div{display:grid;grid-template-columns:7.5em 1fr;gap:12px;padding:11px 16px;border-top:1px solid var(--line)}
+dl.info>div:first-child{border-top:0}
+dl.info dt{color:var(--muted);font-size:14px}
+dl.info dd{margin:0;overflow-wrap:anywhere}
+dl.gl dt{font-weight:700;margin-top:12px}
+dl.gl dd{margin:2px 0 0;color:var(--muted)}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.btn{background:var(--accent);color:var(--accent-ink);padding:10px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px}
+.btn.alt{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:14px;text-decoration:none;color:var(--ink);background:var(--surface)}
+ul.fl{list-style:none;margin:12px 0;padding:0;display:grid;gap:10px}
+li.fc{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:12px 16px;display:grid;gap:3px}
+li.fc a{color:var(--ink);text-decoration:none;font-size:17px}
+li.fc a:hover{color:var(--accent)}
+li.fc .meta{color:var(--muted);font-size:13.5px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:1px 10px;color:var(--muted)}
+footer.in{border-top:1px solid var(--line);padding-top:16px;padding-bottom:36px;color:var(--muted);font-size:13.5px;line-height:1.7}
+footer p{margin:6px 0}
+@media (max-width:520px){dl.info>div{grid-template-columns:1fr;gap:2px}}
