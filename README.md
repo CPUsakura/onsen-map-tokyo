@@ -1,4 +1,4 @@
-# 温泉MAP TOKYO（公開用ファイル）
+# 天然温泉MAP東京（公開用ファイル）
 
 東京の温泉・銭湯マップのWebサイト一式です。GitHub Pages でそのまま公開できます。
 公開されるURL: https://cpusakura.github.io/onsen-map-tokyo/
