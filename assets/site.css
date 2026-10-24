@@ -43,3 +43,8 @@ li.fc .meta{color:var(--muted);font-size:13.5px}
 footer.in{border-top:1px solid var(--line);padding-top:16px;padding-bottom:36px;color:var(--muted);font-size:13.5px;line-height:1.7}
 footer p{margin:6px 0}
 @media (max-width:520px){dl.info>div{grid-template-columns:1fr;gap:2px}}
+
+.pr{margin:32px 0 0;padding:12px 0;border-top:1px dashed var(--line)}
+.pr-l{margin:0 0 8px;font-size:12px;color:var(--muted)}
+.pr a{display:block}
+.pr img{display:block}
