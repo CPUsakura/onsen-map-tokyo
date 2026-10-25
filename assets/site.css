@@ -50,3 +50,7 @@ footer p{margin:6px 0}
 .pr img{display:block}
 .pr a+img+.pr-l{margin-top:16px}
 .pr-l{margin-top:16px}.pr-l:first-child{margin-top:0}
+.pr-item{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ink);font-size:14px;line-height:1.6}
+.pr-item img{flex:none;width:96px;height:96px;object-fit:cover;border-radius:8px}
+.pr-item+.pr-item{margin-top:14px}
+.pr>a.pr-item:first-of-type{margin-top:0}
